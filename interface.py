@@ -12,7 +12,7 @@ def home():
 def predict_charges():
     try:
         if request.method == 'GET':
-            print("+"*50)
+            # print("+"*50)
             data = request.args.get
             print("Data :",data)
             age = int(data('age'))
